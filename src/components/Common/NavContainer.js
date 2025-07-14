@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 import { AppBar, Container, Toolbar } from '@mui/material';
 
 // container for header and footer
