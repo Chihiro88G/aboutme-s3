@@ -3,6 +3,7 @@ import { Typography, Grid, useMediaQuery } from "@mui/material";
 import Title from "../components/Common/Title";
 import PageContainer from "../components/Common/PageContainer";
 import ProjectCard from "../components/Projects/ProjectCard";
+import expenseSageImg from "../images/expense-sage.jpg";
 import guideMeImg from "../images/guideme-jp.png";
 import chihiroCaImg from "../images/chihiro-ca.png";
 import cbayImg from "../images/cbay.png";
@@ -39,7 +40,16 @@ export default function Projects() {
       >
         <Grid item xs={12} md={6} sx={{ padding: 0 }}>
           <ProjectCard 
-            name='GuideMeJp'
+            name='Expense Sage'
+            overview='Expense Sage is an expense tracking app that helps you monitor your spending and see how it compares to your budget. Collaborating with @Awasjo (https://github.com/Awasjo)'
+            link={gitUri + 'expense-sage-backend'}
+            imgUrl={expenseSageImg}
+          />
+        </Grid>
+
+        <Grid item xs={12} md={6} sx={{ padding: 0 }}>
+          <ProjectCard 
+            name='Guide Me Jp'
             overview='GuideMeJp is for tourists planing to visit Japan and looking for tours. It offers travel tips and various guided tours available in English'
             link={gitUri + 'jp-guides'}
             imgUrl={guideMeImg}
