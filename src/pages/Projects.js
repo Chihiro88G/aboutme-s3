@@ -4,6 +4,7 @@ import Title from "../components/Common/Title";
 import PageContainer from "../components/Common/PageContainer";
 import ProjectCard from "../components/Projects/ProjectCard";
 import expenseSageImg from "../images/expense-sage.jpg";
+import tennisFansToImg from "../images/tennis-fans-to.png";
 import guideMeImg from "../images/guideme-jp.png";
 import chihiroCaImg from "../images/chihiro-ca.png";
 import cbayImg from "../images/cbay.png";
@@ -44,6 +45,15 @@ export default function Projects() {
             overview='Expense Sage is an expense tracking app that helps you monitor your spending and see how it compares to your budget. Collaborating with @Awasjo (https://github.com/Awasjo)'
             link={gitUri + 'expense-sage-backend'}
             imgUrl={expenseSageImg}
+          />
+        </Grid>
+
+        <Grid item xs={12} md={6} sx={{ padding: 0 }}>
+          <ProjectCard 
+            name='Tennis Fans TO'
+            overview='Tennis Fans TO is for tennis lovers to find tennis courts in Toronto based on the areas and other conditions. Planning to add more features later on.'
+            link={gitUri + 'tennis-fans-to'}
+            imgUrl={tennisFansToImg}
           />
         </Grid>
 
