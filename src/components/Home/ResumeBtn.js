@@ -43,7 +43,7 @@ export default function ResumeBtn() {
       >
         <Box sx={modalStyle}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
-            Update resume coming soon...!
+            Updated resume coming soon...!
           </Typography>
         </Box>
       </Modal>
